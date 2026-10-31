@@ -1,0 +1,73 @@
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+Thumbs.db
+
+# Local editor / AI (not part of the app)
+.cursor/
+.agent/
+*.code-workspace
+
+# IDE (optional local settings)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# SwiftPM
+/.build
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.xcarchive
+project.xcworkspace/
+*.xcodeproj
+
+# Build outputs (never commit binaries)
+build/
+dist/
+*.app
+*.dmg
+*.zip
+*.dSYM/
+
+# Notarization receipts (also under dist/, ignored above)
+*-notary.json
+*-notary-log.json
+
+# Icon tooling artifacts
+Resources/AppIcon.iconset/
+Resources/.AppIcon.work.png
+
+# Logs & temp
+*.log
+build.log
+tmp/
+temp/
+
+# Secrets & env
+.netrc
+*.pem
+*.cer
+.env
+.env.*
+*.p12
+*.mobileprovision
+AuthKey_*.p8

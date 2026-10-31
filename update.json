@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "build": 2,
+  "downloadURL": "https://agentdock.siliconapps.dev/downloads/AgentDock.dmg",
+  "releaseNotes": "AgentDock — notch HUD for coding agents, usage, and agent connections."
+}
